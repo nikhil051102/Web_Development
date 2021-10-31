@@ -1,0 +1,1 @@
+1)  If we write give only height or width to image then html will set height or accordingly in ratio.
