@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Payment Details</h2>
+    <p>Name : <input type="text" name="name" required></p>
+    <br>
+    <!-- Radio Buttons have same name  -->
+    <p>Gender : 
+        Male <input type="radio" name="gender" >
+        Female <input type="radio" name="gender" >
+    </p>
+
+    <p>
+        Address : <textarea name="address" cols="30" rows="10"></textarea>
+        <br>
+        Mail : <input type="email" name="email">
+        <br>
+        Pincode : <input type="number" name="Pincode">
+    </p>
+
+    <h2>Payment Information</h2>
+    <p>
+        Card Type : <select name="card_type">
+            <option value="">--Select Card Type</option>
+            <option value="Visa">Visa</option>
+            <option value="Rupay">Rupay</option>
+            <option value="Mastercard">Mastercard</option>
+        </select>
+    </p>
+    <p>
+        Card Number : <input type="number" name="card_number">
+        <br>
+        Expiry Date : <input type="date" name="expiry_date">
+        <br>
+        CVV : <input type="password" name="cvv">
+    </p>
+    <input type="submit" value="Pay Now">
+    <input type="reset" value="Reset">
+</body>
+</html>
